@@ -2,10 +2,10 @@ import React, { useRef } from 'react'
 import './Testimonials.css'
 import next_icon from '../../assets/next-icon.png'
 import back_icon from '../../assets/back-icon.png'
-import user_1 from '../../assets/user-1.png'
-import user_2 from '../../assets/user-2.png'
-import user_3 from '../../assets/user-3.png'
-import user_4 from '../../assets/user-4.png'
+import user_1 from '../../assets/Indian-1.webp'
+import user_2 from '../../assets/Indian-2.webp'
+import user_3 from '../../assets/Indian-3.webp'
+import user_4 from '../../assets/Indian-2.webp'
 const Testimonials = () => {
 
   const slider = useRef();
@@ -48,7 +48,7 @@ const slideBackward =() => {
             <div className='userInfo'>
             <img src= {user_2} alt="" />
             <div>
-              <h3>Mohith Rao</h3>
+              <h3>Ajay</h3>
               <span>Mahindra,India</span>
             </div>
             </div>
@@ -60,7 +60,7 @@ const slideBackward =() => {
             <div className='userInfo'>
             <img src= {user_3} alt="" />
             <div>
-              <h3>Sravani</h3>
+              <h3>Rahul</h3>
               <span>Mahindra,India</span>
             </div>
             </div>
@@ -72,7 +72,7 @@ const slideBackward =() => {
             <div className='userInfo'>
             <img src= {user_4} alt="" />
             <div>
-              <h3>Sriya</h3>
+              <h3>Pramod</h3>
               <span>Mahindra,India</span>
             </div>
             </div>
